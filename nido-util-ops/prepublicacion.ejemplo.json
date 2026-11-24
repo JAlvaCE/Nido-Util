@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "fecha_revision": "2026-11-23",
+  "modo": "EDITORIAL",
+  "pago_o_suscripcion": false,
+  "usa_cuenta_personal": false,
+  "claves_en_repositorio": false,
+  "publicacion_automatica": false,
+  "revision": {
+    "revision_editorial": false,
+    "prueba_movil_390": false,
+    "prueba_tablet_768": false,
+    "prueba_escritorio_1280": false,
+    "enlaces_internos_validos": false,
+    "accesibilidad_basica": false,
+    "transparencia_visible": false,
+    "cuenta_marca_correcta": false
+  },
+  "afirmaciones": [],
+  "medios": [],
+  "puertas_comerciales_verificadas": false,
+  "nota": "BORRADOR: valores false hasta comprobar evidencia real. Nunca almacenar tokens, contraseñas o datos de compradores."
+}
