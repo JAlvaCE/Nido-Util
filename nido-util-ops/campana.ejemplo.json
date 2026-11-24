@@ -1,0 +1,45 @@
+{
+  "id": "NU-ANG-01",
+  "mercado": "CO",
+  "necesidad": "Falta de espacio en mesadas junto al lavaplatos",
+  "audiencia": "Personas con cocinas pequeñas en Colombia",
+  "beneficio_verificable": "Antes de elegir un escurridor conviene medir ancho, profundidad y altura disponible.",
+  "fuentes": [
+    {
+      "url": "https://www.mercadolibre.com.co/mas-vendidos/MCO376610",
+      "fecha": "2026-11-23",
+      "sustenta": "Familia de escurridores en el mercado colombiano; no verifica ninguna dimensión específica"
+    }
+  ],
+  "piezas": {
+    "guia": {
+      "angulo_id": "NU-ANG-01",
+      "beneficio_canonico": "Antes de elegir un escurridor conviene medir ancho, profundidad y altura disponible.",
+      "estado": "BORRADOR",
+      "aparenta_prueba_real": false,
+      "material_terceros": false,
+      "testimonio": false
+    },
+    "video": {
+      "angulo_id": "NU-ANG-01",
+      "beneficio_canonico": "Antes de elegir un escurridor conviene medir ancho, profundidad y altura disponible.",
+      "estado": "BORRADOR",
+      "aparenta_prueba_real": false,
+      "material_terceros": false,
+      "testimonio": false
+    },
+    "carrusel": {
+      "angulo_id": "NU-ANG-01",
+      "beneficio_canonico": "Antes de elegir un escurridor conviene medir ancho, profundidad y altura disponible.",
+      "estado": "BORRADOR",
+      "aparenta_prueba_real": false,
+      "material_terceros": false,
+      "testimonio": false
+    }
+  },
+  "oferta": {
+    "activa": false,
+    "enlace": null,
+    "puertas": {}
+  }
+}

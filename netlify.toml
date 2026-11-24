@@ -1,0 +1,6 @@
+[build]
+  publish = "docs"
+
+# Publicación: seleccionar la rama main de JAlvaCE/Nido-Util (nunca JAlvaCE/Portfolio).
+# Sitio editorial de validación. Sin compras, pagos ni enlaces afiliados activos.
+# Netlify Free tiene límites de uso, evitar mejoras automáticas de plan.
