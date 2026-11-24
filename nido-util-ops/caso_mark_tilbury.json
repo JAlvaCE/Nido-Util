@@ -1,0 +1,19 @@
+{
+  "id": "CASO-EXTERNO-MARK-TILBURY-20261103",
+  "fuente": "https://www.youtube.com/watch?v=mUz_tHYLhUs",
+  "fecha_publicacion": "2026-11-03",
+  "tipo": "TERCERO_REVENTA_CON_ANUNCIOS",
+  "ventas": 25,
+  "ingresos_usd": 855.75,
+  "costos_usd": {
+    "producto_envio": 472.84,
+    "transaccion": 28.9,
+    "publicidad": 249.66,
+    "muestras": 48.35,
+    "software": 1.99,
+    "otros": 0
+  },
+  "otros_cero_es_hipotesis": true,
+  "auditado_independientemente": false,
+  "nota": "Cifras publicadas por el creador. Otros=0 únicamente para reconciliar partidas reveladas, NO demuestra ausencia de impuestos, devoluciones u otros gastos. No son datos de Nido Útil."
+}

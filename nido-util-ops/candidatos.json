@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "revision": "2026-11-23",
+  "nota": "Familias de productos, NO SKU validado ni enlaces afiliados. Puntaje editorial de evidencia parcial, no predicción de ventas. Ofertas: ninguna.",
+  "candidatos": [
+    {
+      "id": "NU-P001",
+      "producto": "Escurridor elevado sobre lavaplatos 2 niveles",
+      "fuentes": [
+        {
+          "url": "https://www.mercadolibre.com.co/mas-vendidos/MCO376610",
+          "fecha": "2026-11-23",
+          "observacion": "Un anuncio ajeno de 65 cm figura con etiqueta +10 mil vendidos; no son nuestras ventas."
+        }
+      ],
+      "notas": {
+        "colombia": 12,
+        "utilidad": 15,
+        "intencion": 10,
+        "afiliacion": null,
+        "visual": 8,
+        "riesgos": null,
+        "medios": null
+      },
+      "puertas": {},
+      "enlace_afiliado": null
+    },
+    {
+      "id": "NU-P002",
+      "producto": "Escurridor plegable de platos",
+      "fuentes": [
+        {
+          "url": "https://www.mercadolibre.com.co/mas-vendidos/MCO376610",
+          "fecha": "2026-11-23",
+          "observacion": "Un anuncio ajeno figura con etiqueta +1000 vendidos; no es producto aprobado."
+        }
+      ],
+      "notas": {
+        "colombia": 10,
+        "utilidad": 15,
+        "intencion": 8,
+        "afiliacion": null,
+        "visual": 7,
+        "riesgos": null,
+        "medios": null
+      },
+      "puertas": {},
+      "enlace_afiliado": null
+    },
+    {
+      "id": "NU-P003",
+      "producto": "Estante metálico organizador cocina",
+      "fuentes": [
+        {
+          "url": "https://listado.mercadolibre.com.co/hogar-muebles/cocina/almacenamiento-organizacion/organizadores-cocina/",
+          "fecha": "2026-11-23",
+          "observacion": "En categoría figura un anuncio con etiqueta +500 vendidos; disponibilidad y licencia no comprobadas."
+        }
+      ],
+      "notas": {
+        "colombia": 10,
+        "utilidad": 15,
+        "intencion": 5,
+        "afiliacion": null,
+        "visual": 7,
+        "riesgos": null,
+        "medios": null
+      },
+      "puertas": {},
+      "enlace_afiliado": null
+    },
+    {
+      "id": "NU-P004",
+      "producto": "Bolsas de almacenamiento al vacío",
+      "fuentes": [
+        {
+          "url": "https://listado.mercadolibre.com.co/hogar-muebles/organizacion-hogar/",
+          "fecha": "2026-11-23",
+          "observacion": "Categoría contiene bolsas de almacenamiento; no hay volumen de ventas validado de SKU."
+        }
+      ],
+      "notas": {
+        "colombia": 7,
+        "utilidad": 15,
+        "intencion": null,
+        "afiliacion": null,
+        "visual": 8,
+        "riesgos": null,
+        "medios": null
+      },
+      "puertas": {},
+      "enlace_afiliado": null
+    }
+  ]
+}
