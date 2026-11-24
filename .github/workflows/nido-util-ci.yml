@@ -1,0 +1,52 @@
+name: Nido Util - calidad y seguridad
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "nido-util-ops/**"
+      - "docs/**"
+      - ".github/workflows/nido-util-ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: nido-util-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  static-and-logic-tests:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Obtener código sin conservar credenciales
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Comprobar Node.js y ejecutar suites sin dependencias
+        shell: bash
+        run: |
+          node --version
+          node --test nido-util-ops/*.test.mjs
+
+  browser-e2e-accessibility:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - name: Obtener código sin conservar credenciales
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Instalar dependencias de QA solamente en directorio temporal
+        shell: bash
+        run: |
+          mkdir -p /tmp/nido-qa-browser
+          npm --prefix /tmp/nido-qa-browser install --no-save --no-audit --no-fund playwright@1.55.1 @axe-core/playwright@4.10.2
+          /tmp/nido-qa-browser/node_modules/.bin/playwright install --with-deps chromium
+      - name: Ejecutar navegador Chromium sobre las cinco páginas
+        env:
+          NIDO_PLAYWRIGHT_MODULE: /tmp/nido-qa-browser/node_modules/playwright
+          NIDO_AXE_MODULE: /tmp/nido-qa-browser/node_modules/@axe-core/playwright
+        run: node nido-util-ops/browser-qa.cjs
